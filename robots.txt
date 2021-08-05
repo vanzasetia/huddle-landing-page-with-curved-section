@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://vanzahuddlecurved.netlify.app/sitemap.xml

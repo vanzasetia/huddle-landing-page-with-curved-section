@@ -1,0 +1,14 @@
+# Ignore All Markdown files
+*.md
+
+# Ignore all JSON files
+*.json
+
+# Ignore all Sass files
+scss/
+
+# Ignore all JavaScript files, since I want it to be minified
+js/
+
+# Ignore this one
+images/

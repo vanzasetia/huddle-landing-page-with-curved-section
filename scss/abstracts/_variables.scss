@@ -1,0 +1,30 @@
+// Default style that I currently use on this project
+$default-html-font-size: 100% !default;
+$black: rgb(17, 17, 17) !default;
+$white: rgb(242, 242, 242) !default;
+$selection-bg: rgb(0, 201, 250) !default;
+$focus-visible-color: rgb(255, 14, 166) !default;
+
+// Primary Color
+$pink-100: hsl(321, 100%, 78%);
+$pink-200: hsl(322, 100%, 66%);
+$light-red: hsl(0, 100%, 63%);
+$light-blue: rgb(8, 193, 255);
+
+// Neutral Color
+$very-dark-cyan: hsl(192, 100%, 9%);
+$very-pale-blue: hsl(207, 100%, 98%);
+
+// Breakpoints
+// Note: If you user font-size setting is 16px, then this 'em' is equal to this in 'px'
+$breakpoints-up: (
+  "tiny": 20.0625em, // => 321px
+  "very-small": 37.5625em, // => 601px
+  "small": 74.1875em // => 1187px
+);
+
+$breakpoints-down: (
+  "tiny": 20em, // => 320px
+  "very-small": 37.5em, // => 600px
+  "small": 74.125em // => 1186px
+);
