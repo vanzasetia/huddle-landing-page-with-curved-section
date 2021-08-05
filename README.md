@@ -32,8 +32,12 @@
 - [Continued Development](#continued-development)
 
 ## The Story When Doing This Challenge
+This is my story when building this project. I want to mention that `style-guide.md` doesn't provide the blue color as the active state of the social media icons. So, I used color picker and get this color code `rgb(8, 193, 255)`.
+
+I also used very dark cyan color as my main font color.
 
 ### Header
+I noticed that the logo and the *try it free* button on mobile design is too small. I made them a little bit bigger. It's also an accessibility part where if your website has buttons, they need to have a decent *touch target*. That way they are easy to click.
 
 ### Section
 
