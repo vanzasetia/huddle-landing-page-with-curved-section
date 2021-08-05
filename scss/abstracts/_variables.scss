@@ -15,6 +15,12 @@ $light-blue: rgb(8, 193, 255);
 $very-dark-cyan: hsl(192, 100%, 9%);
 $very-pale-blue: hsl(207, 100%, 98%);
 
+// Use Cases
+$body-color: $very-dark-cyan;
+$btn-outline-color: $pink-200;
+$btn-outline-font-color: $pink-200;
+$btn-hover-color: $pink-100;
+
 // Breakpoints
 // Note: If you user font-size setting is 16px, then this 'em' is equal to this in 'px'
 $breakpoints-up: (
