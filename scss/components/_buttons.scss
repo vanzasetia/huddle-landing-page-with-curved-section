@@ -1,0 +1,20 @@
+@use "../abstracts" as *;
+
+.btn {
+  display: inline-block;
+  border: none;
+}
+
+.btn--outline {
+  border: rem(1) solid $btn-outline-color;
+  border-radius: 1em;
+  padding: rem(6) rem(14);
+  color: $btn-outline-font-color;
+  font-size: rem(14);
+  
+  @include focus-visible;
+  @include on-event {
+    border-color: $btn-hover-color;
+    color: $btn-hover-color;
+  }
+}
