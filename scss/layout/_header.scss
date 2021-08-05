@@ -1,0 +1,15 @@
+@use "../abstracts" as *;
+
+.header {
+  padding: rem(24) 0;
+}
+
+.header__navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__home {
+  flex-basis: rem(120);
+}

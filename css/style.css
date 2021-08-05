@@ -202,6 +202,7 @@ html {
 }
 
 body {
+  color: #00252e;
   font-family: "Open Sans", sans-serif;
   font-size: 1rem;
 }
@@ -270,4 +271,43 @@ img {
   visibility: hidden;
   height: 0;
   width: 0.0625rem;
+}
+
+.container {
+  padding: 0 1rem;
+}
+
+.btn {
+  display: inline-block;
+  border: none;
+}
+
+.btn--line {
+  border: 0.0625rem solid #ff52bf;
+  border-radius: 1em;
+  padding: 0.375rem 0.875rem;
+  color: #ff52bf;
+  font-size: 0.875rem;
+}
+.btn--line:focus-visible {
+  outline: 0.125rem dashed #ff0ea6;
+  outline-offset: 0.3125rem;
+}
+.btn--line:hover, .btn--line:active, .btn--line:focus {
+  border-color: #ff8fd8;
+  color: #ff8fd8;
+}
+
+.header {
+  padding: 1.5rem 0;
+}
+
+.header__navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__home {
+  flex-basis: 7.5rem;
 }
