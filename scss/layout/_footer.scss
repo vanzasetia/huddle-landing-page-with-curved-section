@@ -1,0 +1,132 @@
+@use "../abstracts" as *;
+
+.footer {
+  background-color: $footer-bg-color;
+  padding: rem(32) 0;
+  color: $white;
+}
+
+.footer .container {
+  overflow: hidden;
+}
+
+.footer__title {
+  text-transform: uppercase;
+  font: 700 rem(20) "Open Sans", sans-serif;
+}
+
+.footer__description {
+  font-weight: 600;
+}
+
+.footer__label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: rem(12);
+}
+
+.footer__email {
+  display: block;
+  margin-bottom: rem(3);
+  border: rem(2) solid transparent;
+  border-radius: 0.5em;
+  background: hsl(0, 0%, 100%) center right rem(10) no-repeat;
+  padding: rem(5);
+  padding-right: rem(42);
+  width: 100%;
+  height: rem(48);
+  
+  @include focus-visible;
+}
+
+.footer__placeholder {
+  height: rem(20);
+}
+
+.footer__alert {
+  display: none;
+  margin: 0;
+  color: $error-color;
+  font-weight: 600;
+}
+
+.footer__email:focus:invalid {
+  border-color: $error-color;
+  background-image: url("../images/times-square.svg");
+}
+
+.footer__email:focus:invalid ~ .footer__placeholder .footer__alert {
+  display: block;
+}
+
+.footer__email:valid {
+  border-color: rgb(128, 230, 21);
+  background-image: url("../images/check-square.svg");
+}
+
+.footer__info {
+  margin-top: rem(80);
+}
+
+.footer__home {
+  
+  @include focus-visible;
+}
+
+.footer__logo {
+  width: rem(180);
+}
+
+.footer__list {
+  margin-top: rem(48);
+}
+
+.footer__item {
+  display: flex;
+  align-items: center;
+}
+
+.footer__item:first-child {
+  margin-bottom: rem(16);
+}
+
+.footer__icon {
+  width: rem(18);
+}
+
+.footer__address {
+  margin-left: rem(24);
+}
+
+.footer__link {
+  color: $white;
+  
+  @include focus-visible;
+  @include on-event {
+    color: $footer-hover-color;
+  }
+}
+
+.social {
+  display: flex;
+  align-items: center;
+  margin-top: rem(48);
+}
+
+.social__item:not(:first-child) {
+  margin-left: rem(32);
+}
+
+.social__link {
+  @include focus-visible;
+}
+
+.social__icon {
+  transform: scale(1.25);
+}
+
+.social__link:hover .social__icon path,
+.social__link:active .social__icon path,
+.social__link:focus .social__icon path {
+  fill: $footer-hover-color;
+}
