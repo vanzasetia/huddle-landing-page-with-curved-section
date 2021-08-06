@@ -280,6 +280,7 @@ img {
 .btn {
   display: inline-block;
   border: none;
+  text-transform: capitalize;
 }
 
 .btn--line {
