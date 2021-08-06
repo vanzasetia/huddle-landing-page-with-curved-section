@@ -4,13 +4,13 @@
   display: inline-block;
   margin: rem(14) 0;
   border: none;
+  border-radius: 5em;
   text-transform: capitalize;
   font-size: rem(12);
 }
 
 .btn--line {
   border: rem(1) solid $btn-color;
-  border-radius: 1em;
   padding: rem(6) rem(14);
   color: $btn-color;
   
@@ -22,7 +22,6 @@
 }
 
 .btn--fill {
-  border-radius: 5em;
   box-shadow: 
     0 rem(5) rem(20) rgba($very-dark-cyan, 0.2)
   ;
