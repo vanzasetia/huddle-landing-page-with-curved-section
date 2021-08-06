@@ -330,7 +330,12 @@ img {
 }
 
 .hero {
-  padding: 5.625rem 0;
+  background-image: url("../images/bg-section-top-mobile-1.svg");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding-top: 5.625rem;
+  padding-bottom: 7.5rem;
   text-align: center;
 }
 
@@ -369,4 +374,22 @@ img {
   margin: 0;
   text-transform: capitalize;
   color: rgba(0, 37, 46, 0.5);
+}
+
+.section {
+  padding: 5rem 0;
+}
+
+.section--blue {
+  background-color: #f5faff;
+}
+
+.section .container {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.section__text {
+  margin-top: 3.75rem;
+  text-align: center;
 }

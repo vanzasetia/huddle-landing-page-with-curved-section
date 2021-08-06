@@ -1,0 +1,19 @@
+@use "../abstracts" as *;
+
+.section {
+  padding: rem(80) 0;
+}
+
+.section--blue {
+  background-color: $section-bg-color;
+}
+
+.section .container {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.section__text {
+  margin-top: rem(60);
+  text-align: center;
+}
