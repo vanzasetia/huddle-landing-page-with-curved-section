@@ -85,7 +85,7 @@ That method was also applied to other sections.
 ### Footer
 
 ## What I Learned
-
+* `background` property. I usually don't use this property but I will try to use it from now.
 
 
 ## Built With
