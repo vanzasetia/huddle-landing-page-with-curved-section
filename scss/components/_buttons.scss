@@ -35,3 +35,9 @@
     background-color: $btn-hover-color;
   }
 }
+
+.btn--submit {
+  margin-top: rem(7);
+  border-radius: 0.25em;
+  font-size: rem(16);
+}
