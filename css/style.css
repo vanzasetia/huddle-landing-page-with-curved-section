@@ -456,6 +456,7 @@ img {
   outline-offset: 0.3125rem;
 }
 
+/* FORM VALIDATION */
 .footer__placeholder {
   height: 1.25rem;
 }
@@ -467,12 +468,12 @@ img {
   font-weight: 600;
 }
 
-.footer__email:focus:invalid {
+.footer__email:invalid:focus:not(:placeholder-shown) {
   border-color: #ff4242;
   background-image: url("../images/times-square.svg");
 }
 
-.footer__email:focus:invalid ~ .footer__placeholder .footer__alert {
+.footer__email:invalid:focus:not(:placeholder-shown) ~ .footer__placeholder .footer__alert {
   display: block;
 }
 
@@ -481,6 +482,7 @@ img {
   background-image: url("../images/check-square.svg");
 }
 
+/* END OF FORM VALIDATION */
 .footer__info {
   margin-top: 5rem;
 }

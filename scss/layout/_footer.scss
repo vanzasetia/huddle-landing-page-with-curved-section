@@ -39,10 +39,13 @@
   @include focus-visible;
 }
 
+/* FORM VALIDATION */
+// Added placeholder for alert to prevent jumping layout even when the alert message is hidden
 .footer__placeholder {
   height: rem(20);
 }
 
+// Alert message is hidden by default
 .footer__alert {
   display: none;
   margin: 0;
@@ -50,19 +53,22 @@
   font-weight: 600;
 }
 
-.footer__email:focus:invalid {
+// When the user enter an invalid email...
+.footer__email:invalid:focus:not(:placeholder-shown) {
   border-color: $error-color;
   background-image: url("../images/times-square.svg");
 }
 
-.footer__email:focus:invalid ~ .footer__placeholder .footer__alert {
+.footer__email:invalid:focus:not(:placeholder-shown) ~ .footer__placeholder .footer__alert {
   display: block;
 }
 
+// When it is valid...
 .footer__email:valid {
   border-color: rgb(128, 230, 21);
   background-image: url("../images/check-square.svg");
 }
+/* END OF FORM VALIDATION */
 
 .footer__info {
   margin-top: rem(80);
