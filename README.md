@@ -39,6 +39,9 @@ I also used very dark cyan color as my main font color.
 ### Header
 I noticed that the logo and the *try it free* button on mobile design is too small. I made them a little bit bigger. It's also an accessibility part where if your website has buttons, they need to have a decent *touch target*. That way they are easy to click.
 
+## Hero
+When I built the hero section, I noticed that `16px` body font size is too big, so I reduced it to `15px`.
+
 ### Section
 
 ### Footer
