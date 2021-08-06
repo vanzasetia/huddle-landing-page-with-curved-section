@@ -307,6 +307,13 @@ img {
   color: #f2f2f2;
   font-weight: 700;
 }
+.btn--fill:focus-visible {
+  outline: 0.125rem dashed #ff0ea6;
+  outline-offset: 0.3125rem;
+}
+.btn--fill:hover, .btn--fill:active, .btn--fill:focus {
+  background-color: #ff8fd8;
+}
 
 .header {
   padding: 1rem 0;
@@ -323,7 +330,7 @@ img {
 }
 
 .hero {
-  padding: 3rem 0;
+  padding: 5.625rem 0;
   text-align: center;
 }
 
