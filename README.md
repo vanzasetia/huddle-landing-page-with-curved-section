@@ -49,13 +49,14 @@ Let me explain, what's that mean. For example I wanted the first section have `b
 
 ```css
 .section {
+  background: 
+    top/100% no-repeat,
+    bottom/100% no-repeat
+  ;
   background-image: 
     url("../images/bg-section-top-mobile-1.svg"),
     url("../images/bg-section-bottom-mobile-1.svg")
   ;
-  background-position: top, bottom;
-  background-repeat: no-repeat;
-  background-size: 100%;
 }
 ```
 
@@ -65,16 +66,21 @@ So, I tried to put it on the previous sibling, which was `hero` and it worked!
 
 ```css
 .hero {
-  background-image: 
-    url("../images/bg-section-top-mobile-1.svg"),
-  ;
-  background-position: bottom;
-  background-repeat: no-repeat;
-  background-size: 100%;
+  background: bottom/100% no-repeat;
+  background-image: url("../images/bg-section-top-mobile-1.svg");
 }
 ```
 
 For the bottom background image I used the next sibling element.
+
+```css
+.section--middle {
+  background: top/100% no-repeat;
+  background-image: url("../images/bg-section-bottom-mobile-1.svg");
+}
+```
+
+That method was also applied to other sections.
 
 ### Footer
 
