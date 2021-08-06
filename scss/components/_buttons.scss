@@ -29,4 +29,9 @@
   padding: rem(14) rem(36);
   color: $white;
   font-weight: 700;
+  
+  @include focus-visible;
+  @include on-event {
+    background-color: $btn-hover-color;
+  }
 }
