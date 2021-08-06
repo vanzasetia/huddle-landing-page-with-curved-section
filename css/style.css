@@ -330,10 +330,8 @@ img {
 }
 
 .hero {
+  background: bottom/100% no-repeat;
   background-image: url("../images/bg-section-top-mobile-1.svg");
-  background-position: bottom;
-  background-repeat: no-repeat;
-  background-size: 100%;
   padding-top: 5.625rem;
   padding-bottom: 7.5rem;
   text-align: center;
@@ -382,6 +380,12 @@ img {
 
 .section--blue {
   background-color: #f5faff;
+}
+
+.section--middle {
+  background: top/100% no-repeat, bottom/100% no-repeat;
+  background-image: url("../images/bg-section-bottom-mobile-1.svg"), url("../images/bg-section-top-mobile-2.svg");
+  padding: 12.5rem 0;
 }
 
 .section .container {
