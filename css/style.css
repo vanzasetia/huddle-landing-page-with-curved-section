@@ -204,7 +204,7 @@ html {
 body {
   color: #00252e;
   font-family: "Open Sans", sans-serif;
-  font-size: 1rem;
+  font-size: 0.9375rem;
 }
 
 h1 {
@@ -279,16 +279,17 @@ img {
 
 .btn {
   display: inline-block;
+  margin: 0.875rem 0;
   border: none;
+  border-radius: 5em;
   text-transform: capitalize;
+  font-size: 0.75rem;
 }
 
 .btn--line {
   border: 0.0625rem solid #ff52bf;
-  border-radius: 1em;
   padding: 0.375rem 0.875rem;
   color: #ff52bf;
-  font-size: 0.875rem;
 }
 .btn--line:focus-visible {
   outline: 0.125rem dashed #ff0ea6;
@@ -299,8 +300,16 @@ img {
   color: #ff8fd8;
 }
 
+.btn--fill {
+  box-shadow: 0 0.1875rem 0.3125rem rgba(0, 37, 46, 0.2);
+  background-color: #ff52bf;
+  padding: 0.875rem 2.25rem;
+  color: #f2f2f2;
+  font-weight: 700;
+}
+
 .header {
-  padding: 1.5rem 0;
+  padding: 1rem 0;
 }
 
 .header__navigation {
@@ -311,4 +320,46 @@ img {
 
 .header__home {
   flex-basis: 7.5rem;
+}
+
+.hero {
+  padding: 3rem 0;
+  text-align: center;
+}
+
+.hero__title {
+  font-size: 1.75rem;
+}
+
+.hero__description {
+  margin: 1.25rem 0;
+}
+
+.hero__image {
+  margin: 4rem 0;
+}
+
+.hero__list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hero__item:first-child {
+  margin-bottom: 3.75rem;
+}
+
+.hero__icon {
+  height: 1.5rem;
+}
+
+.hero__number {
+  margin: 0;
+  font-size: 3.5rem;
+}
+
+.hero__stats {
+  margin: 0;
+  text-transform: capitalize;
+  color: rgba(0, 37, 46, 0.5);
 }
