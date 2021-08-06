@@ -43,6 +43,38 @@ I noticed that the logo and the *try it free* button on mobile design is too sma
 When I built the hero section, I noticed that `16px` body font size is too big, so I reduced it to `15px`.
 
 ### Section
+The `section-background` was tricky. After several try and error, I found out that I need to put the `background-image` on the sibling element, not the direct section. 
+
+Let me explain, what's that mean. For example I wanted the first section have `bg-section-top-1` and `bg-section-bottom-2`. I wanted the top one on the top and so the opposite. At first I thought that I need to put those background on its section and then position it using `background-position`.
+
+```css
+.section {
+  background-image: 
+    url("../images/bg-section-top-mobile-1.svg"),
+    url("../images/bg-section-bottom-mobile-1.svg")
+  ;
+  background-position: top, bottom;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+```
+
+But it doesn't work, the background images were inside the section. They also were invisible, since I used the same color for background color.
+
+So, I tried to put it on the previous sibling, which was `hero` and it worked!
+
+```css
+.hero {
+  background-image: 
+    url("../images/bg-section-top-mobile-1.svg"),
+  ;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+```
+
+For the bottom background image I used the next sibling element.
 
 ### Footer
 
