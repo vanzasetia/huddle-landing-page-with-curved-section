@@ -1,10 +1,8 @@
 @use "../abstracts" as *;
 
 .hero {
+  background: bottom/100% no-repeat;
   background-image: url("../images/bg-section-top-mobile-1.svg");
-  background-position: bottom;
-  background-repeat: no-repeat;
-  background-size: 100%;
   padding-top: rem(90);
   padding-bottom: rem(120);
   text-align: center;
