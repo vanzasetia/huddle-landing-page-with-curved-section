@@ -388,9 +388,20 @@ img {
   padding: 12.5rem 0;
 }
 
+.section--community {
+  background: top/100% no-repeat, bottom/100% no-repeat;
+  background-image: url("../images/bg-section-bottom-mobile-2.svg"), url("../images/bg-footer-top-mobile.svg");
+  padding: 12.5rem 0;
+}
+
 .section .container {
   display: flex;
   flex-direction: column-reverse;
+}
+
+.section--community .container {
+  display: block;
+  text-align: center;
 }
 
 .section__text {
