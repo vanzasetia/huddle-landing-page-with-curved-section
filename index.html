@@ -109,6 +109,7 @@
   </header>
   <!-- END OF Header -->
   
+  <!-- Main -->
   <main id="main">
     
     <!-- Hero -->
@@ -202,28 +203,85 @@
     <!-- END OF Fourth Section -->
     
   </main>
+  <!-- END OF Main -->
+  
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__newsletter">
+        <h3 class="footer__title">Newsletter</h3>
+        <p class="footer__description">
+          To recieve tips on how to grow your community, sign up to our weekly newsletter. We’ll never 
+          send you spam or pass on your email address
+        </p>
+        <form class="footer__form" name="newsletter" method="POST" netlify-honeypot="bot-field" data-netlify="true">
+          <p class="hidden" aria-hidden="true">
+            <label for="bot">Don’t fill this out if you’re human: <input id="bot" name="bot-field" /></label>
+          </p>
+          <div class="form__control">
+            <label for="footerEmail" class="footer__label">Enter Email</label>
+            <input type="email" name="email" id="footerEmail" class="footer__email" required placeholder=" " aria-describedby="footerAlert">
+            <div class="footer__placeholder">
+              <p id="footerAlert" class="footer__alert" aria-live="assertive">Check your email please</p>
+            </div>
+          </div>
+          <button class="btn btn--fill btn--submit" type="submit">
+            <span class="sr-only">Submit your email to</span> subscribe <span class="sr-only">our newsletter</span>
+          </button>
+        </form>
+      </div>
+      <div class="footer__info">
+        <a href="index.html" class="footer__home">
+          <span class="sr-only">Huddle - Home</span>
+          <img src="./images/logo-white.svg" alt="Huddle" class="footer__logo" width="240" height="39">
+        </a>
+        <p class="footer__description">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nulla quam, hendrerit lacinia 
+          vestibulum a, ultrices quis sem.
+        </p>
+        <ul class="footer__list">
+          <li class="footer__item">
+            <img src="./images/icon-phone.svg" alt="" class="footer__icon" aria-hidden="true" width="" height="">
+            <address class="footer__address">
+              <a href="tel:+15431234567" class="footer__link">
+                Phone: +1-543-123-4567
+              </a>
+            </address>
+          </li>
+          <li class="footer__item">
+            <img src="./images/icon-email.svg" alt="" class="footer__icon" aria-hidden="true" width="" height="">
+            <address class="footer__address">
+              <a href="mailto:example@huddle.com" class="footer__link">
+                example@huddle.com
+              </a>
+            </address>
+          </li>
+        </ul>
+        <ul class="social">
+          <li class="social__item">
+            <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com" class="social__link">
+              <span class="sr-only">Facebook, open in new window.</span>
+              <img src="./images/facebook.svg" alt="" class="social__icon" aria-hidden="true" width="" height="">
+            </a>
+          </li>
+          <li class="social__item">
+            <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com" class="social__link">
+              <span class="sr-only">Instagram, open in new window.</span>
+              <img src="./images/instagram.svg" alt="" class="social__icon" aria-hidden="true" width="" height="">
+            </a>
+          </li>
+          <li class="social__item">
+            <a target="_blank" rel="noopener noreferrer" href="https://www.twitter.com" class="social__link">
+              <span class="sr-only">Twitter, open in new window.</span>
+              <img src="./images/twitter.svg" alt="" class="social__icon" aria-hidden="true" width="" height="">
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+  <!-- END OF Footer -->
   <!--
-
-  1.4k+
-  Communities Formed
-
-  2.7m+
-  Messages Sent
-
-  Grow Together
-  Generate meaningful discussions with your audience and build a strong, loyal community. 
-  Think of the insightful conversations you miss out on with a feedback form. 
-
-  Flowing Conversations
-  You wouldn't paginate a conversation in real life, so why do it online? Our threads have 
-  just-in-time loading for a more natural flow.
-
-  Your Users
-  It takes no time at all to integrate Huddle with your app's authentication solution. This means, 
-  once signed in to your app, your users can start chatting immediately.
-
-  Ready To Build Your Community?
-  Get Started For Free
 
   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nulla quam, hendrerit lacinia 
   vestibulum a, ultrices quis sem.
