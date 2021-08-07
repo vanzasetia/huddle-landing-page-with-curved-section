@@ -2,6 +2,10 @@
 
 .section {
   padding: rem(80) 0;
+  
+  @include breakpoint-up("tiny") {
+    padding: rem(120) 0;
+  }
 }
 
 .section--blue {
@@ -18,6 +22,14 @@
     url("../images/bg-section-top-mobile-2.svg")
   ;
   padding: rem(200) 0;
+  
+  @include breakpoint-up("tiny") {
+    background-image: 
+    url("../images/bg-section-bottom-desktop-1.svg"),
+    url("../images/bg-section-top-desktop-2.svg")
+    ;
+    padding: rem(240) 0;
+  }
 }
 
 .section--community {
@@ -30,11 +42,31 @@
     url("../images/bg-footer-top-mobile.svg")
   ;
   padding: rem(200) 0;
+  
+  @include breakpoint-up("tiny") {
+    background-image: 
+      url("../images/bg-section-bottom-desktop-2.svg"),
+      url("../images/bg-footer-top-desktop.svg")
+    ;
+    padding: rem(240) 0;
+  }
 }
 
 .section .container {
   display: flex;
   flex-direction: column-reverse;
+  
+  @include breakpoint-up("tiny") {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+.section--middle .container {
+  @include breakpoint-up("tiny") {
+    flex-direction: row-reverse;
+  }
 }
 
 .section--community .container {
@@ -45,4 +77,23 @@
 .section__text {
   margin-top: rem(60);
   text-align: center;
+  
+  @include breakpoint-up("tiny") {
+    margin-top: 0;
+    flex-basis: rem(400);
+    text-align: left;
+  }
+}
+
+.section__title {
+  @include breakpoint-up("tiny") {
+    font-size: rem(40);
+  }
+}
+
+.section__image {
+  
+  @include breakpoint-up("tiny") {
+    max-width: rem(400);
+  }
 }

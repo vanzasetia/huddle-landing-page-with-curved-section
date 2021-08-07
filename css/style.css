@@ -371,6 +371,11 @@ img {
   padding-bottom: 7.5rem;
   text-align: center;
 }
+@media screen and (min-width: 64em) {
+  .hero {
+    padding-bottom: 18.75rem;
+  }
+}
 
 @media screen and (min-width: 64em) {
   .hero .container {
@@ -444,7 +449,7 @@ img {
 }
 @media screen and (min-width: 64em) {
   .hero__number {
-    font-size: 4rem;
+    font-size: 5.625rem;
   }
 }
 
@@ -453,9 +458,19 @@ img {
   text-transform: capitalize;
   color: rgba(0, 37, 46, 0.5);
 }
+@media screen and (min-width: 64em) {
+  .hero__stats {
+    font-size: 1.5rem;
+  }
+}
 
 .section {
   padding: 5rem 0;
+}
+@media screen and (min-width: 64em) {
+  .section {
+    padding: 7.5rem 0;
+  }
 }
 
 .section--blue {
@@ -467,16 +482,41 @@ img {
   background-image: url("../images/bg-section-bottom-mobile-1.svg"), url("../images/bg-section-top-mobile-2.svg");
   padding: 12.5rem 0;
 }
+@media screen and (min-width: 64em) {
+  .section--middle {
+    background-image: url("../images/bg-section-bottom-desktop-1.svg"), url("../images/bg-section-top-desktop-2.svg");
+    padding: 15rem 0;
+  }
+}
 
 .section--community {
   background: top/100% no-repeat, bottom/100% no-repeat;
   background-image: url("../images/bg-section-bottom-mobile-2.svg"), url("../images/bg-footer-top-mobile.svg");
   padding: 12.5rem 0;
 }
+@media screen and (min-width: 64em) {
+  .section--community {
+    background-image: url("../images/bg-section-bottom-desktop-2.svg"), url("../images/bg-footer-top-desktop.svg");
+    padding: 15rem 0;
+  }
+}
 
 .section .container {
   display: flex;
   flex-direction: column-reverse;
+}
+@media screen and (min-width: 64em) {
+  .section .container {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (min-width: 64em) {
+  .section--middle .container {
+    flex-direction: row-reverse;
+  }
 }
 
 .section--community .container {
@@ -487,6 +527,25 @@ img {
 .section__text {
   margin-top: 3.75rem;
   text-align: center;
+}
+@media screen and (min-width: 64em) {
+  .section__text {
+    margin-top: 0;
+    flex-basis: 25rem;
+    text-align: left;
+  }
+}
+
+@media screen and (min-width: 64em) {
+  .section__title {
+    font-size: 2.5rem;
+  }
+}
+
+@media screen and (min-width: 64em) {
+  .section__image {
+    max-width: 25rem;
+  }
 }
 
 .footer {
