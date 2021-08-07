@@ -14,4 +14,7 @@
   flex-basis: rem(150);
   
   @include focus-visible;
+  @include breakpoint-up("tiny") {
+    flex-basis: rem(200);
+  }
 }

@@ -347,6 +347,11 @@ img {
   outline: 0.125rem dashed #ff0ea6;
   outline-offset: 0.3125rem;
 }
+@media screen and (min-width: 64em) {
+  .header__home {
+    flex-basis: 12.5rem;
+  }
+}
 
 .hero {
   background: bottom/100% no-repeat;
