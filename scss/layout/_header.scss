@@ -2,6 +2,10 @@
 
 .header {
   padding: rem(16) 0;
+  
+  @include breakpoint-up("tiny") {
+    padding: rem(40) 0;
+  }
 }
 
 .header__navigation {
