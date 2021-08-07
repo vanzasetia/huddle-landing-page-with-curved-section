@@ -274,7 +274,15 @@ img {
 }
 
 .container {
+  margin: 0 auto;
   padding: 0 1rem;
+  max-width: 31.25rem;
+}
+@media screen and (min-width: 64em) {
+  .container {
+    padding: 0 2.5rem;
+    max-width: 100%;
+  }
 }
 
 .btn {
