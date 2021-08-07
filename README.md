@@ -91,12 +91,13 @@ I added the validation, not just the *Check your email please* and red border, b
 
 For the hover effect on social media icons, I used inline svg, I knew that it's not a good practice but to change the color when the user hover it I need to target the `fill` property. I had tried using `filter`, but sadly it didn't give me the `blue` color that on `active-states.jpg`. I used this [Filter Generator on Codepen](https://codepen.io/sosuke/pen/Pjoqqp) to generate the filter code, but it didn't give me the right color.
 
-I had to use `transform: scale()` to make the social media icons bigger. I already tried using `width` and `height`, it didn't work.
+I had to use `transform: scale()` to make the social media icons bigger. I already tried using `width` and `height`, it didn't work well.
 
 I made the social icons bigger so they are easy to click. Like I said before, it's important for anything that is clickable must have a decent touch target.
 
 ## What I Learned
 * `background` property. I usually don't use this property but I will try to use it from now.
+* Size is matter! I need to make sure that every button is easy to click.
 
 
 ## Built With
@@ -113,6 +114,7 @@ I also used [Mailgo](https://mailgo.dev/), which is a light JavaScript library f
 </p>
 
 ## Useful Resources
+* [Medium Article about Accessibility and Touch Targets by Zac Dickerson](https://medium.com/@zacdicko/size-matters-accessibility-and-touch-targets-56e942adc0cc)
 * [Optimize Cumulative Layout Shift](https://web.dev/optimize-cls/)
 * [Form Validation UX in HTML and CSS](https://css-tricks.com/form-validation-ux-html-css/)
 * [Font Converter from any format to any format that you want](https://www.fontconverter.io/en)
