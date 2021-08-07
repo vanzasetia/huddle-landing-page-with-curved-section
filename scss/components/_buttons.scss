@@ -11,8 +11,9 @@
 
 .btn--line {
   border: rem(1) solid $btn-color;
-  padding: rem(8) rem(16);
+  padding: rem(6) rem(16);
   color: $btn-color;
+  font-size: rem(14);
   
   @include focus-visible;
   @include on-event {
