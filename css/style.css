@@ -309,6 +309,12 @@ img {
   border-color: #ff8fd8;
   color: #ff8fd8;
 }
+@media screen and (min-width: 64em) {
+  .btn--line {
+    padding: 0.5rem 1.5rem;
+    font-size: 1rem;
+  }
+}
 
 .btn--fill {
   box-shadow: 0 0.1875rem 0.3125rem rgba(0, 37, 46, 0.2);

@@ -21,6 +21,11 @@
     border-color: $btn-hover-color;
     color: $btn-hover-color;
   }
+  
+  @include breakpoint-up("tiny") {
+    padding: rem(8) rem(24);
+    font-size: rem(16);
+  }
 }
 
 .btn--fill {
