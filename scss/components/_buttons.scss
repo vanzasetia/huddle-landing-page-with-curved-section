@@ -46,4 +46,12 @@
 .btn--submit {
   margin-top: rem(7);
   border-radius: 0.25em;
+  
+  @include breakpoint-up("tiny") {
+    flex-basis: rem(180);
+    margin: 0;
+    margin-top: rem(7);
+    padding: rem(5);
+    height: rem(48);
+  }
 }
