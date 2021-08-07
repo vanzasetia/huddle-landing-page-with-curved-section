@@ -335,6 +335,10 @@ img {
 .header__home {
   flex-basis: 9.375rem;
 }
+.header__home:focus-visible {
+  outline: 0.125rem dashed #ff0ea6;
+  outline-offset: 0.3125rem;
+}
 
 .hero {
   background: bottom/100% no-repeat;
