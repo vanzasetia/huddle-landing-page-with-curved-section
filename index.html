@@ -214,16 +214,18 @@
           <p class="hidden" aria-hidden="true">
             <label for="bot">Don’t fill this out if you’re human: <input id="bot" name="bot-field" /></label>
           </p>
-          <div class="footer__control">
-            <label for="footerEmail" class="footer__label">Enter Email</label>
-            <input type="email" name="email" id="footerEmail" class="footer__email" required placeholder=" " aria-describedby="footerAlert">
-            <div class="footer__placeholder">
-              <p id="footerAlert" class="footer__alert" aria-live="assertive">Check your email please</p>
+          <label for="footerEmail" class="footer__label">Enter Email</label>
+          <div class="footer__flex">
+            <div class="footer__input">
+              <input type="email" name="email" id="footerEmail" class="footer__email" required placeholder=" " aria-describedby="footerAlert">
+              <div class="footer__placeholder">
+                <p id="footerAlert" class="footer__alert" aria-live="assertive">Check your email please</p>
+              </div>
             </div>
+            <button class="btn btn--fill btn--submit" type="submit">
+              <span class="sr-only">Submit your email to</span> subscribe <span class="sr-only">our newsletter</span>
+            </button>
           </div>
-          <button class="btn btn--fill btn--submit" type="submit">
-            <span class="sr-only">Submit your email to</span> subscribe <span class="sr-only">our newsletter</span>
-          </button>
         </form>
       </div>
       <div class="footer__info">
