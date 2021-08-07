@@ -531,11 +531,12 @@ img {
 .social {
   display: flex;
   align-items: center;
-  margin-top: 3rem;
+  margin-top: 3.75rem;
+  margin-bottom: 1.25rem;
 }
 
 .social__item:not(:first-child) {
-  margin-left: 2rem;
+  margin-left: 3.5rem;
 }
 
 .social__link:focus-visible {
@@ -544,7 +545,7 @@ img {
 }
 
 .social__icon {
-  transform: scale(1.25);
+  transform: scale(1.75);
 }
 
 .social__link:hover .social__icon path,

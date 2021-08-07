@@ -116,11 +116,12 @@
 .social {
   display: flex;
   align-items: center;
-  margin-top: rem(48);
+  margin-top: rem(60);
+  margin-bottom: rem(20);
 }
 
 .social__item:not(:first-child) {
-  margin-left: rem(32);
+  margin-left: rem(56);
 }
 
 .social__link {
@@ -128,7 +129,7 @@
 }
 
 .social__icon {
-  transform: scale(1.25);
+  transform: scale(1.75);
 }
 
 .social__link:hover .social__icon path,
