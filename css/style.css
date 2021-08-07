@@ -282,6 +282,7 @@ img {
   margin: 0.875rem 0;
   border: none;
   border-radius: 5em;
+  cursor: pointer;
   text-transform: capitalize;
   font-size: 1rem;
 }
