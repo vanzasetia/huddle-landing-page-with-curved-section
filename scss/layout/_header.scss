@@ -12,4 +12,6 @@
 
 .header__home {
   flex-basis: rem(150);
+  
+  @include focus-visible;
 }
