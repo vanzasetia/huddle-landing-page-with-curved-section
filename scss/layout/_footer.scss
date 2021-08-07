@@ -39,14 +39,14 @@
   }
 }
 
-.footer__form {
+.footer__flex {
   @include breakpoint-up("tiny") {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
   }
 }
 
-.footer__control {
+.footer__input {
   @include breakpoint-up("tiny") {
     flex-basis: rem(300);
     margin-right: rem(40);
