@@ -33,8 +33,9 @@
   background: hsl(0, 0%, 100%) center right rem(10) no-repeat;
   padding: rem(5);
   padding-right: rem(42);
-  width: 100%;
   height: rem(48);
+  width: 100%;
+  font-size: rem(16);
   
   @include focus-visible;
 }
@@ -93,7 +94,7 @@
 }
 
 .footer__item:first-child {
-  margin-bottom: rem(16);
+  margin-bottom: rem(20);
 }
 
 .footer__icon {
@@ -121,7 +122,7 @@
 }
 
 .social__item:not(:first-child) {
-  margin-left: rem(56);
+  margin-left: rem(42);
 }
 
 .social__link {
@@ -129,7 +130,7 @@
 }
 
 .social__icon {
-  transform: scale(1.75);
+  transform: scale(1.5);
 }
 
 .social__link:hover .social__icon path,
