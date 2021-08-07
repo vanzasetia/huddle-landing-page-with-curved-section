@@ -6,6 +6,10 @@
   padding-top: rem(90);
   padding-bottom: rem(120);
   text-align: center;
+  
+  @include breakpoint-up("tiny") {
+    padding-bottom: rem(300);
+  }
 }
 
 .hero .container {
@@ -73,7 +77,7 @@
   font-size: rem(56);
   
   @include breakpoint-up("tiny") {
-    font-size: rem(64);
+    font-size: rem(90);
   }
 }
 
@@ -81,4 +85,8 @@
   margin: 0;
   text-transform: capitalize;
   color: rgba($very-dark-cyan, 0.5);
+  
+  @include breakpoint-up("tiny") {
+    font-size: rem(24);
+  }
 }
