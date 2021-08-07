@@ -39,8 +39,12 @@ I also used very dark cyan color as my main font color.
 ### Header
 I noticed that the logo and the *try it free* button on mobile design is too small. I made them a little bit bigger. It's also an accessibility part where if your website has buttons, they need to have a decent *touch target*. That way they are easy to click.
 
+When building the desktop layout, I just made the logo and *try it free* button bigger.
+
 ## Hero
 When I built the hero section, I noticed that `16px` body font size is too big, so I reduced it to `15px`.
+
+On desktop layout, I noticed that it didn't have the same container as the other content. So, I added `930px` max-width to the `.hero .container`.
 
 ### Section
 The `section-background` was tricky. After several try and error, I found out that I need to put the `background-image` on the sibling element, not the direct section. 
@@ -81,6 +85,10 @@ For the bottom background image I used the next sibling element.
 ```
 
 That method was also applied to other sections.
+
+On building desktop layout, I add changed into desktop background image, made them into two columns layout, and added more padding.
+
+I wanted to use `flex-basis` on controlling the size of the illustration images, but I couldn't make it work. I needed to use `max-width` to control the width.
 
 ### Footer
 I changed the position of the subscribe button on mobile layout to align left. In my opinion, it's better since everything is also align left.
