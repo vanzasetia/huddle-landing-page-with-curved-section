@@ -3,7 +3,7 @@
 .header {
   padding: rem(16) 0;
   
-  @include breakpoint-up("tiny") {
+  @include breakpoint-up("very-small") {
     padding: rem(40) 0;
   }
 }
@@ -18,7 +18,7 @@
   flex-basis: rem(150);
   
   @include focus-visible;
-  @include breakpoint-up("tiny") {
+  @include breakpoint-up("very-small") {
     flex-basis: rem(200);
   }
 }

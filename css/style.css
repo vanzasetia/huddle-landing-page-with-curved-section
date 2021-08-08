@@ -309,7 +309,7 @@ img {
   border-color: #ff8fd8;
   color: #ff8fd8;
 }
-@media screen and (min-width: 64em) {
+@media screen and (min-width: 46.875em) {
   .btn--line {
     padding: 0.5rem 1.5rem;
     font-size: 1rem;
@@ -335,7 +335,7 @@ img {
   margin-top: 0.4375rem;
   border-radius: 0.25em;
 }
-@media screen and (min-width: 64em) {
+@media screen and (min-width: 46.875em) {
   .btn--submit {
     flex-basis: 11.25rem;
     margin: 0;
@@ -378,6 +378,11 @@ img {
   padding-top: 5.625rem;
   padding-bottom: 7.5rem;
   text-align: center;
+}
+@media screen and (min-width: 46.875em) {
+  .hero {
+    background-image: url("../images/bg-section-top-desktop-1.svg");
+  }
 }
 @media screen and (min-width: 64em) {
   .hero {
@@ -490,7 +495,7 @@ img {
   background-image: url("../images/bg-section-bottom-mobile-1.svg"), url("../images/bg-section-top-mobile-2.svg");
   padding: 12.5rem 0;
 }
-@media screen and (min-width: 64em) {
+@media screen and (min-width: 46.875em) {
   .section--middle {
     background-image: url("../images/bg-section-bottom-desktop-1.svg"), url("../images/bg-section-top-desktop-2.svg");
     padding: 15rem 0;
@@ -502,7 +507,7 @@ img {
   background-image: url("../images/bg-section-bottom-mobile-2.svg"), url("../images/bg-footer-top-mobile.svg");
   padding: 12.5rem 0;
 }
-@media screen and (min-width: 64em) {
+@media screen and (min-width: 46.875em) {
   .section--community {
     background-image: url("../images/bg-section-bottom-desktop-2.svg"), url("../images/bg-footer-top-desktop.svg");
     padding: 15rem 0;

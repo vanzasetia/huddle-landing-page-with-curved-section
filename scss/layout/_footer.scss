@@ -5,7 +5,7 @@
   padding: rem(32) 0;
   color: $white;
   
-  @include breakpoint-up("tiny") {
+  @include breakpoint-up("very-small") {
     padding: rem(120) 0;
   }
 }
@@ -13,7 +13,7 @@
 .footer .container {
   overflow: hidden;
   
-  @include breakpoint-up("tiny") {
+  @include breakpoint-up("very-small") {
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
@@ -21,7 +21,7 @@
 }
 
 .footer__newsletter {
-  @include breakpoint-up("tiny") {
+  @include breakpoint-up("very-small") {
     flex-basis: rem(500);
   }
 }
@@ -34,20 +34,20 @@
 .footer__description {
   font-weight: 600;
   
-  @include breakpoint-up("tiny") {
+  @include breakpoint-up("very-small") {
     max-width: rem(400);
   }
 }
 
 .footer__flex {
-  @include breakpoint-up("tiny") {
+  @include breakpoint-up("very-small") {
     display: flex;
     align-items: flex-start;
   }
 }
 
 .footer__input {
-  @include breakpoint-up("tiny") {
+  @include breakpoint-up("very-small") {
     flex-basis: rem(300);
     margin-right: rem(40);
   }
@@ -108,7 +108,7 @@
 .footer__info {
   margin-top: rem(80);
   
-  @include breakpoint-up("tiny") {
+  @include breakpoint-up("very-small") {
     flex-basis: rem(360);
     margin-top: 0;
   }
@@ -121,7 +121,7 @@
 .footer__logo {
   width: rem(180);
   
-  @include breakpoint-up("tiny") {
+  @include breakpoint-up("very-small") {
     margin-bottom: rem(30);
     width: rem(240);
   }

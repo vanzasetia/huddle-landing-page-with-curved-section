@@ -8,12 +8,16 @@
   text-align: center;
   
   @include breakpoint-up("tiny") {
+    background-image: url("../images/bg-section-top-desktop-1.svg");
+  }
+  
+  @include breakpoint-up("very-small") {
     padding-bottom: rem(300);
   }
 }
 
 .hero .container {
-  @include breakpoint-up("tiny") {
+  @include breakpoint-up("very-small") {
     max-width: rem(930);
   }
 }
@@ -21,7 +25,7 @@
 .hero__title {
   font-size: rem(28);
   
-  @include breakpoint-up("tiny") {
+  @include breakpoint-up("very-small") {
     font-size: rem(40);
   }
 }
@@ -29,7 +33,7 @@
 .hero__description {
   margin: rem(20) 0;
   
-  @include breakpoint-up("tiny") {
+  @include breakpoint-up("very-small") {
     margin: rem(32) auto;
     max-width: rem(500);
   }
@@ -38,7 +42,7 @@
 .hero__image {
   margin: rem(64) 0;
   
-  @include breakpoint-up("tiny") {
+  @include breakpoint-up("very-small") {
     margin-right: auto;
     margin-left: auto;
   }
@@ -49,7 +53,7 @@
   flex-direction: column;
   align-items: center;
   
-  @include breakpoint-up("tiny") {
+  @include breakpoint-up("very-small") {
     flex-direction: row;
     justify-content: space-between;
   }
@@ -58,7 +62,7 @@
 .hero__item:first-child {
   margin-bottom: rem(60);
   
-  @include breakpoint-up("tiny") {
+  @include breakpoint-up("very-small") {
     margin: 0;
   }
 }
@@ -67,7 +71,7 @@
   height: rem(24);
   width: auto;
   
-  @include breakpoint-up("tiny") {
+  @include breakpoint-up("very-small") {
     height: rem(40);
   }
 }
@@ -76,7 +80,7 @@
   margin: 0;
   font-size: rem(56);
   
-  @include breakpoint-up("tiny") {
+  @include breakpoint-up("very-small") {
     font-size: rem(90);
   }
 }
@@ -86,7 +90,7 @@
   text-transform: capitalize;
   color: rgba($very-dark-cyan, 0.5);
   
-  @include breakpoint-up("tiny") {
+  @include breakpoint-up("very-small") {
     font-size: rem(24);
   }
 }

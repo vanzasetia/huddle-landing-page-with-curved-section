@@ -3,7 +3,7 @@
 .section {
   padding: rem(80) 0;
   
-  @include breakpoint-up("tiny") {
+  @include breakpoint-up("very-small") {
     padding: rem(120) 0;
   }
 }
@@ -56,7 +56,7 @@
   display: flex;
   flex-direction: column-reverse;
   
-  @include breakpoint-up("tiny") {
+  @include breakpoint-up("very-small") {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
@@ -64,7 +64,7 @@
 }
 
 .section--middle .container {
-  @include breakpoint-up("tiny") {
+  @include breakpoint-up("very-small") {
     flex-direction: row-reverse;
   }
 }
@@ -78,7 +78,7 @@
   margin-top: rem(60);
   text-align: center;
   
-  @include breakpoint-up("tiny") {
+  @include breakpoint-up("very-small") {
     margin-top: 0;
     flex-basis: rem(400);
     text-align: left;
@@ -86,14 +86,14 @@
 }
 
 .section__title {
-  @include breakpoint-up("tiny") {
+  @include breakpoint-up("very-small") {
     font-size: rem(40);
   }
 }
 
 .section__image {
   
-  @include breakpoint-up("tiny") {
+  @include breakpoint-up("very-small") {
     max-width: rem(400);
   }
 }
