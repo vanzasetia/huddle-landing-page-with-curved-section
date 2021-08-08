@@ -20,6 +20,10 @@
   @include breakpoint-up("very-small") {
     max-width: rem(930);
   }
+  
+  @include breakpoint-up("small") {
+    max-width: rem(1280);
+  }
 }
 
 .hero__title {
@@ -27,6 +31,10 @@
   
   @include breakpoint-up("very-small") {
     font-size: rem(40);
+  }
+  
+  @include breakpoint-up("small") {
+    font-size: rem(50);
   }
 }
 
@@ -36,6 +44,11 @@
   @include breakpoint-up("very-small") {
     margin: rem(32) auto;
     max-width: rem(500);
+  }
+  
+  @include breakpoint-up("small") {
+    max-width: rem(600);
+    font-size: rem(20);
   }
 }
 
@@ -55,7 +68,7 @@
   
   @include breakpoint-up("very-small") {
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
   }
 }
 
