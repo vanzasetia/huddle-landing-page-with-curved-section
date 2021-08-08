@@ -645,9 +645,6 @@ img {
   }
 }
 
-.footer .container {
-  overflow: hidden;
-}
 @media screen and (min-width: 64em) {
   .footer .container {
     display: flex;
@@ -663,6 +660,7 @@ img {
 }
 
 .footer__title {
+  margin-top: 0;
   text-transform: uppercase;
   font: 700 1.75rem "Open Sans", sans-serif;
 }
@@ -750,16 +748,16 @@ img {
   }
 }
 
+.footer__home {
+  display: inline-block;
+  width: 11.25rem;
+}
 .footer__home:focus-visible {
   outline: 0.125rem dashed #ff0ea6;
   outline-offset: 0.3125rem;
 }
-
-.footer__logo {
-  width: 11.25rem;
-}
 @media screen and (min-width: 64em) {
-  .footer__logo {
+  .footer__home {
     margin-bottom: 1.875rem;
     width: 15rem;
   }

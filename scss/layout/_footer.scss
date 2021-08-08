@@ -16,8 +16,6 @@
 }
 
 .footer .container {
-  overflow: hidden;
-  
   @include breakpoint-up("very-small") {
     display: flex;
     flex-direction: row-reverse;
@@ -32,6 +30,7 @@
 }
 
 .footer__title {
+  margin-top: 0;
   text-transform: uppercase;
   font: 700 rem(28) "Open Sans", sans-serif;
 }
@@ -120,12 +119,10 @@
 }
 
 .footer__home {
-  @include focus-visible;
-}
-
-.footer__logo {
+  display: inline-block;
   width: rem(180);
   
+  @include focus-visible;
   @include breakpoint-up("very-small") {
     margin-bottom: rem(30);
     width: rem(240);
