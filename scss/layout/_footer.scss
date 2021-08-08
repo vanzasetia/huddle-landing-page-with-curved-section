@@ -6,7 +6,12 @@
   color: $white;
   
   @include breakpoint-up("very-small") {
-    padding: rem(120) 0;
+    padding-top: rem(120);
+    padding-bottom: rem(60);
+  }
+  
+  @include breakpoint-up("small") {
+    padding-top: rem(160);
   }
 }
 
@@ -28,7 +33,7 @@
 
 .footer__title {
   text-transform: uppercase;
-  font: 700 rem(20) "Open Sans", sans-serif;
+  font: 700 rem(28) "Open Sans", sans-serif;
 }
 
 .footer__description {
@@ -166,6 +171,10 @@
 
 .social__item:not(:first-child) {
   margin-left: rem(42);
+  
+  @include breakpoint-up("very-small") {
+    margin-left: rem(50);
+  }
 }
 
 .social__link {
@@ -173,7 +182,7 @@
 }
 
 .social__icon {
-  transform: scale(1.5);
+  transform: scale(1.7);
 }
 
 .social__link:hover .social__icon path,
