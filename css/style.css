@@ -358,6 +358,11 @@ img {
     padding: 2.5rem 0;
   }
 }
+@media screen and (min-width: 80em) {
+  .header {
+    padding: 3.75rem 0;
+  }
+}
 
 .header__navigation {
   display: flex;
@@ -375,6 +380,11 @@ img {
 @media screen and (min-width: 64em) {
   .header__home {
     flex-basis: 12.5rem;
+  }
+}
+@media screen and (min-width: 80em) {
+  .header__home {
+    flex-basis: 14.375rem;
   }
 }
 

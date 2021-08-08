@@ -6,6 +6,10 @@
   @include breakpoint-up("very-small") {
     padding: rem(40) 0;
   }
+  
+  @include breakpoint-up("small") {
+    padding: rem(60) 0;
+  }
 }
 
 .header__navigation {
@@ -20,5 +24,9 @@
   @include focus-visible;
   @include breakpoint-up("very-small") {
     flex-basis: rem(200);
+  }
+  
+  @include breakpoint-up("small") {
+    flex-basis: rem(230);
   }
 }
