@@ -298,7 +298,6 @@ img {
   border-radius: 5em;
   cursor: pointer;
   text-transform: capitalize;
-  font-size: 1rem;
 }
 
 .btn--line {
@@ -321,6 +320,12 @@ img {
     font-size: 1rem;
   }
 }
+@media screen and (min-width: 80em) {
+  .btn--line {
+    padding: 0.625rem 1.625rem;
+    font-size: 1.125rem;
+  }
+}
 
 .btn--fill {
   box-shadow: 0 0.1875rem 0.3125rem rgba(0, 37, 46, 0.2);
@@ -336,10 +341,18 @@ img {
 .btn--fill:hover, .btn--fill:active, .btn--fill:focus {
   background-color: #ff8fd8;
 }
+@media screen and (min-width: 80em) {
+  .btn--fill {
+    box-shadow: 0 0.3125rem 0.5rem rgba(0, 37, 46, 0.2);
+    padding: 1.5rem 5rem;
+    font-size: 1.25rem;
+  }
+}
 
 .btn--submit {
   margin-top: 0.4375rem;
   border-radius: 0.25em;
+  font-size: 1rem;
 }
 @media screen and (min-width: 46.875em) {
   .btn--submit {

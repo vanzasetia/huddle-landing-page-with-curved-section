@@ -7,7 +7,6 @@
   border-radius: 5em;
   cursor: pointer;
   text-transform: capitalize;
-  font-size: rem(16);
 }
 
 .btn--line {
@@ -26,6 +25,11 @@
     padding: rem(8) rem(24);
     font-size: rem(16);
   }
+  
+  @include breakpoint-up("small") {
+    padding: rem(10) rem(26);
+    font-size: rem(18);
+  }
 }
 
 .btn--fill {
@@ -41,11 +45,20 @@
   @include on-event {
     background-color: $btn-hover-color;
   }
+  
+  @include breakpoint-up("small") {
+    box-shadow: 
+    0 rem(5) rem(8) rgba($very-dark-cyan, 0.2)
+  ;
+    padding: rem(24) rem(80);
+    font-size: rem(20);
+  }
 }
 
 .btn--submit {
   margin-top: rem(7);
   border-radius: 0.25em;
+  font-size: rem(16);
   
   @include breakpoint-up("tiny") {
     flex-basis: rem(180);
