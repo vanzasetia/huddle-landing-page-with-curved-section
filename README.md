@@ -17,8 +17,8 @@
 
 ## Feedback and Live Review
 * [🌍 Live Review](https://vanzahuddlecurved.netlify.app/)
-* [👉 Give feedback on Frontend Mentor platform]()
-* [🐦 Give Feedback on Twitter]()
+* [👉 Give feedback on Frontend Mentor platform](https://www.frontendmentor.io/solutions/huddle-landing-page-with-curved-sections-html5-css3-sass-mailgo-incqMUS_J)
+* [🐦 Give Feedback on Twitter](https://twitter.com/vanzasetia/status/1424503530291830790?s=19)
 
 ## Screenshot
 ![Desktop preview](./screenshots/desktop.jpg)
