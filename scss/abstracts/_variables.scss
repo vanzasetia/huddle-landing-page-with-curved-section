@@ -27,9 +27,11 @@ $footer-hover-color: $light-blue;
 // Breakpoints
 // Note: If you user font-size setting is 16px, then this 'em' is equal to this in 'px'
 $breakpoints-up: (
-  "tiny": 64em // => 1024px
+  "tiny": 46.875em, // => 750px
+  "very-small": 64em // => 1024px
 );
 
 $breakpoints-down: (
-  "tiny": 63.9375em // => 1023px
+  "tiny": 46.8125em, // => 749px
+  "very-small": 63.9375em // => 1023px
 );
