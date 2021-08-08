@@ -7,11 +7,10 @@
   
   @include breakpoint-up("very-small") {
     padding: 0 rem(40);
-    max-width: 100%;
+    max-width: rem(1440);
   }
   
   @include breakpoint-up("small") {
     padding: 0 rem(80);
-    max-width: rem(1440);
   }
 }

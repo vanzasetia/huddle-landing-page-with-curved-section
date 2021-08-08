@@ -281,13 +281,12 @@ img {
 @media screen and (min-width: 64em) {
   .container {
     padding: 0 2.5rem;
-    max-width: 100%;
+    max-width: 90rem;
   }
 }
 @media screen and (min-width: 80em) {
   .container {
     padding: 0 5rem;
-    max-width: 90rem;
   }
 }
 
