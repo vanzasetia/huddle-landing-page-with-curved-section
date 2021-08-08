@@ -4,7 +4,7 @@
   padding: rem(80) 0;
   
   @include breakpoint-up("very-small") {
-    padding: rem(120) 0;
+    padding: rem(100) 0;
   }
 }
 
@@ -29,6 +29,10 @@
     url("../images/bg-section-top-desktop-2.svg")
     ;
     padding: rem(240) 0;
+  }
+  
+  @include breakpoint-up("small") {
+    padding: rem(280) 0;
   }
 }
 
