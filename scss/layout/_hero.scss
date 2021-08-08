@@ -14,6 +14,11 @@
   @include breakpoint-up("very-small") {
     padding-bottom: rem(300);
   }
+  
+  @include breakpoint-up("small") {
+    padding-top: rem(120);
+    padding-bottom: rem(340);
+  }
 }
 
 .hero .container {

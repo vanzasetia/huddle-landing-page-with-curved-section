@@ -418,6 +418,12 @@ img {
     padding-bottom: 18.75rem;
   }
 }
+@media screen and (min-width: 80em) {
+  .hero {
+    padding-top: 7.5rem;
+    padding-bottom: 21.25rem;
+  }
+}
 
 @media screen and (min-width: 64em) {
   .hero .container {
