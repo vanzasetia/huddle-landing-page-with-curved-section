@@ -86,16 +86,16 @@ For the bottom background image I used the next sibling element.
 
 That method was also applied to other sections.
 
-On building desktop layout, I add changed into desktop background image, made them into two columns layout, and added more padding.
+On building desktop layout, I add changed into desktop background image on `750px` and added more padding. I created two columns layout on `1024px`.
 
 I wanted to use `flex-basis` on controlling the size of the illustration images, but I couldn't make it work. I needed to use `max-width` to control the width.
 
 ### Footer
 I changed the position of the subscribe button on mobile layout to align left. In my opinion, it's better since everything is also align left.
 
-I also added `Enter Email` label for the input email. It's important for the user to know what kind of data that they have to input. It's also important for accessibility since every input must have `label`.
+I also added `Enter Email` label for the input email. It's important for accessibility since every input must have `label`.
 
-I added the validation, not just the *Check your email please* and red border, but I added `x` icon when the user write an invalid email address. If the email is valid then the user will see green border and check mark icon. I liked this validation 😀.
+I added the validation, not just the *Check your email please* and red border, but I added `x` icon when the user write an invalid email address. If the email is valid then the user will see green border and check mark icon.
 
 For the hover effect on social media icons, I used inline svg, I knew that it's not a good practice but to change the color when the user hover it I need to target the `fill` property. I had tried using `filter`, but sadly it didn't give me the `blue` color that on `active-states.jpg`. I used this [Filter Generator on Codepen](https://codepen.io/sosuke/pen/Pjoqqp) to generate the filter code, but it didn't give me the right color.
 
