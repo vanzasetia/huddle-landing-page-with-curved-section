@@ -583,6 +583,12 @@ img {
   }
 }
 
+@media screen and (min-width: 80em) {
+  .section--community {
+    padding: 22.5rem 0;
+  }
+}
+
 .section--community .container {
   display: block;
   text-align: center;
@@ -599,6 +605,11 @@ img {
     text-align: left;
   }
 }
+@media screen and (min-width: 80em) {
+  .section__text {
+    flex-basis: 32.5rem;
+  }
+}
 
 @media screen and (min-width: 64em) {
   .section__title {
@@ -609,6 +620,11 @@ img {
 @media screen and (min-width: 64em) {
   .section__image {
     max-width: 25rem;
+  }
+}
+@media screen and (min-width: 80em) {
+  .section__image {
+    max-width: 32.5rem;
   }
 }
 

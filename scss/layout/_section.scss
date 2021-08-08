@@ -69,6 +69,12 @@
   }
 }
 
+.section--community {
+  @include breakpoint-up("small") {
+    padding: rem(360) 0;
+  }
+}
+
 .section--community .container {
   display: block;
   text-align: center;
@@ -83,6 +89,10 @@
     flex-basis: rem(400);
     text-align: left;
   }
+  
+  @include breakpoint-up("small") {
+    flex-basis: rem(520);
+  }
 }
 
 .section__title {
@@ -95,5 +105,9 @@
   
   @include breakpoint-up("very-small") {
     max-width: rem(400);
+  }
+  
+  @include breakpoint-up("small") {
+    max-width: rem(520);
   }
 }
