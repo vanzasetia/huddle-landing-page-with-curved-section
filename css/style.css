@@ -483,7 +483,9 @@ img {
 @media screen and (min-width: 64em) {
   .hero__list {
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 64rem;
   }
 }
 
