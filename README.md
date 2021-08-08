@@ -20,6 +20,9 @@
 * [👉 Give feedback on Frontend Mentor platform]()
 * [🐦 Give Feedback on Twitter]()
 
+## Screenshot
+![Desktop preview](./screenshots/desktop.jpg)
+
 ## Table of contents
 - [Story](#the-story-when-doing-this-challenge)
   - [When I Build the Header](#header)
