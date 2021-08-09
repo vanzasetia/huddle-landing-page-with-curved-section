@@ -44,7 +44,7 @@ I noticed that the logo and the *try it free* button on mobile design is too sma
 
 When building the desktop layout, I just made the logo and *try it free* button bigger.
 
-## Hero
+### Hero
 When I built the hero section, I noticed that `16px` body font size is too big, so I reduced it to `15px`.
 
 On desktop layout, I noticed that it didn't have the same container as the other content. So, I added `930px` max-width to the `.hero .container`.
