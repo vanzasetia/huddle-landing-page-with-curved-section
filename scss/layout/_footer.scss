@@ -102,6 +102,11 @@
   display: block;
 }
 
+// When the user leave the invalid email...
+.footer__email:invalid:not(:placeholder-shown) ~ .footer__placeholder .footer__alert {
+  display: block;
+}
+
 // When it is valid...
 .footer__email:valid {
   border-color: rgb(128, 230, 21);

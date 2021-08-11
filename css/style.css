@@ -738,6 +738,10 @@ img {
   display: block;
 }
 
+.footer__email:invalid:not(:placeholder-shown) ~ .footer__placeholder .footer__alert {
+  display: block;
+}
+
 .footer__email:valid {
   border-color: #80e615;
   background-image: url("../images/check-square.svg");
