@@ -758,11 +758,7 @@ img {
   background-image: url("../images/times-square.svg");
 }
 
-.footer__email:invalid:focus:not(:placeholder-shown) ~ .footer__placeholder .footer__alert {
-  display: block;
-}
-
-.footer__email:invalid:not(:placeholder-shown) ~ .footer__placeholder .footer__alert {
+.footer__email:invalid:not(:placeholder-shown):not(:focus) ~ .footer__placeholder .footer__alert {
   display: block;
 }
 
